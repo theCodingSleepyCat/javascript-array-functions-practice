@@ -33,7 +33,7 @@ console.log(characters.map(x => x.name).join(' '));
 
 console.log(characters.map(x => x.height).join(' '));
 
-characters.forEach(x => console.log('name', x.name, 'height', x.height))
+characters.forEach(x => console.log('Name: ', x.name, 'Height: ', x.height))
 
 //***MAP***
 //1. Get array of all names
